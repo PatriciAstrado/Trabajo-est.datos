@@ -1,2 +1,7 @@
 nose que hacer
 yo si se que hacer
+typedef struct nodo {
+  int dato;
+  struct nodo *siguiente
+} NODO;
+NODO* CrearNodo(int dato);
